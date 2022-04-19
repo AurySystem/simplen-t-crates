@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "complex-crates:block/crate_face",
+    "bottom": "complex-crates:block/crate_side",
+    "side": "complex-crates:block/crate_side"
+  }
+}

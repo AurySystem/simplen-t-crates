@@ -1,38 +1,39 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "complex-crates",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Simplen't Crates",
+  "description": "Addon for Simple Crates",
   "authors": [
-    "Me!"
+    "AurySystem"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/AurySystem/simplen-t-crates"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "BSD3",
+  "icon": "assets/complex-crates/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "gay.aurum.complexcrates.ComplexCrates"
+    ],
+    "client": [
+      "gay.aurum.complexcrates.ComplexCratesClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "complex-crates.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
     "minecraft": "1.18.x",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "java": ">=17",
+    "simplecrates": "*"
   }
 }
