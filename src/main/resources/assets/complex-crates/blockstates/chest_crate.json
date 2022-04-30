@@ -2,29 +2,29 @@
   "variants": {
     "facing=down": {
       "x": 180,
-      "model": "complex-crates:block/_crate"
+      "model": "complex-crates:block/chest_crate"
     },
     "facing=east": {
-      "x": 90,
-      "y": 90,
-      "model": "complex-crates:block/_crate"
+      "x": 270,
+      "y": 270,
+      "model": "complex-crates:block/chest_crate"
     },
     "facing=north": {
-      "x": 90,
-      "model": "complex-crates:block/_crate"
+      "x": 270,
+      "y": 180,
+      "model": "complex-crates:block/chest_crate"
     },
     "facing=south": {
-      "x": 90,
-      "y": 180,
-      "model": "complex-crates:block/_crate"
+      "x": 270,
+      "model": "complex-crates:block/chest_crate"
     },
     "facing=up": {
-      "model": "complex-crates:block/_crate"
+      "model": "complex-crates:block/chest_crate"
     },
     "facing=west": {
-      "x": 90,
-      "y": 270,
-      "model": "complex-crates:block/_crate"
+      "x": 270,
+      "y": 90,
+      "model": "complex-crates:block/chest_crate"
     }
   }
 }

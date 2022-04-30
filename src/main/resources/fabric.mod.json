@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "complex-crates",
   "version": "${version}",
-
   "name": "Simplen't Crates",
   "description": "Addon for Simple Crates",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "",
     "sources": "https://github.com/AurySystem/simplen-t-crates"
   },
-
-  "license": "BSD3",
+  "license": "BSD-3",
   "icon": "assets/complex-crates/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [

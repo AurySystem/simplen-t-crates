@@ -1,6 +1,7 @@
 package gay.aurum.complexcrates;
 
 import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
@@ -8,10 +9,16 @@ import net.minecraft.util.math.BlockPos;
 import xyz.sunrose.simplecrates.CrateBlockEntity;
 import xyz.sunrose.simplecrates.SimpleCrates;
 
+
 public class ExtendedCrateBlockEntity extends CrateBlockEntity {
     protected int MAX_ITEMS;
     public ExtendedCrateBlockEntity(BlockPos pos, BlockState state) {
         super(pos, state);
+    }
+
+    @Override
+    public BlockEntityType<?> getType(){
+        return ComplexCrates.BASE_CRATE_BLOCK_ENTITY;
     }
 
     @Override
